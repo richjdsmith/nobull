@@ -1,0 +1,13 @@
+Getting a website built for your business can be a confusing, ugly mess. From unclear pricing to open-ended quotes, we really don't blame you if you've been avoiding getting your business the proper online presence it deserves.
+
+THAT'S WHY WE STARTED NOBULL CO.
+
+
+Tired of seeing small business getting unfair big bills, vague hourly quotes and mediocre wordpress sites, we decided to be different.The NoBull Co. was built on giving the little guys some simple options, with clear and upfront prices and just being fair.
+
+
+
+font-family: 'Poiret One', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Nothing You Could Do', cursive;
+font-family: 'Special Elite', cursive;
