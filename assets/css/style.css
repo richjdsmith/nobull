@@ -817,7 +817,7 @@ h6 {
 }
 
 .btn-contact {
-    font-family: Work Sans;
+    font-family: 'Poiret One', cursive;
     font-size: 16px;
     font-weight: 600;
     color: #001CFF;
@@ -827,9 +827,9 @@ h6 {
     border: 2px solid;
     border-color: #001CFF;
     padding: 10px 20px;
-    border-radius: 25px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     -webkit-transform: 0.5s;
     -moz-transform: 0.5s;
     transition: 0.5s;
