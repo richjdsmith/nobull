@@ -300,9 +300,21 @@ h6 {
 }
 
 .logo-describer {
-    padding-top: 35%;
+    padding-top: 25%;
 }
 
+.logo-describer h1{
+	font-family: 'Special Elite', cursive;
+	font-size: 2em;
+	font-weight: 600;
+	color: #fff;
+}
+.logo-describer h2{
+	font-family: 'Poiret One', cursive;
+	font-size: 1.5em;
+	font-weight: 600;
+	color: #fff;
+}
 
 /* -------------------------------------------------
 --------------- 3.Home Page Styling Starts -----------
@@ -322,13 +334,20 @@ h6 {
 
 .top-nav {
     position: absolute;
-    top: 30px;
-    right: 20px;
+    text-align: right;
+    top: 0px;
+    right: 0px;
+    padding: 20px 20px 0 0;
     z-index: 100;
+    height: 40px;
+    width: 50%;
+    background-color: #fff;
+
 }
 
+
 .top-nav li {
-    font-family: Poppins;
+    font-family: 'Raleway', sans-serif;
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 1px;
@@ -711,7 +730,7 @@ h6 {
 
 .personal {
     background-color: #F1F1F1;
-    background: url(../images/bg.jpg) no-repeat center center;
+    background: url(../img/img1.jpeg) no-repeat center center;
     background-size: cover;
 }
 
@@ -750,54 +769,51 @@ h6 {
 
 .intro {
     padding-top: 25%;
-    text-align: center;
+    text-align: left;
+}
+
+.intro .intro-text h3 {
+    font-family: 'Poiret One', cursive;
+    font-size: 16px;
+    font-weight: 600;
+    color: #434343;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    margin: 0 0 1em 0;
 }
 
 .intro .intro-text h4 {
-    font-family: Poppins;
+    font-family: 'Poiret One', cursive;
     font-size: 14px;
     font-weight: 600;
     color: #A1A1A1;
     letter-spacing: 2px;
     text-transform: uppercase;
     line-height: 1.2;
-    margin: 0 0 20px 0;
-}
+    margin: .8em 0 .8em 0;
 
-.intro .intro-text h1 {
-    font-family: Poppins;
-    font-size: 42px;
-    font-weight: 600;
-    color: #404040;
-    letter-spacing: -2px;
-    line-height: 1.2;
-    margin: 0 0 15px 0;
 }
 
 .intro .intro-text p {
-    font-family: Poppins;
-    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
     font-weight: 400;
     color: #A1A1A1;
     letter-spacing: 0px;
     line-height: 1.5;
-    margin: 0 0 20px 0;
+
 }
 
-.intro .intro-text h3 {
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: 600;
-    color: #434343;
-    text-transform: uppercase;
-    letter-spacing: 0;
-    line-height: 1.2;
-    margin: 50px 0 30px 0;
+.signature {
+	font-family: 'Nothing You Could Do', cursive;
+	font-size: 1.2em;
+	margin: .5em 0 .2em 0;
 }
 
 .intro .intro-text a {
     display: inline-block;
-    margin-right: 15px;
+
 }
 
 .btn-contact {
@@ -1545,7 +1561,7 @@ label {
     }
     .intro {
         padding-top: 50px;
-        text-align: center;
+        text-align: left;
     }
     .left-section {
         position: relative;
