@@ -1,72 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-  
+
 
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Person Mininal Portfolio Template</title>
+    <title>NoBull Co. | Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Person Minimal Portfolio Template">
-    <meta name="keywords" content="Person HTML Template, Person Portfolio Template">
+    <meta name="description" content="NoBull Co. - A little web design company that does things differently by offering simple choices, having fair prices and being upfront with our customers.">
+    <meta name="keywords" content="Web Services Calgary, Website Calgary, Web Design, graphics design, calgary small business, Calgary">
+    <!--STYLESHEETS-->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
     <link rel="stylesheet" href="assets/css/animate.css"> <!-- Resource style -->
-    <link rel="stylesheet" href="assets/css/ionicons.min.css"> <!-- Resource style -->
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do|Poiret+One|Special+Elite|Cormorant+Garamond:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+    <!-- END STYLESHEETS -->
+
+ 
   </head>
 
 
 
-
   <body>
+  <!--Creates Overlay of Opacity White for 150ms-->
     <div id="loading" style="display: none;">
     </div>
-    <div class="wrapper">
-    <div class="nav-trigger visible-xs visible-sm" role="button" title="sweet hamburger">
-      <div class="hamburger">
-        <div class="icon"></div>
+  <!-- End Overlay -->
+  
+  <!--MAIN MENU-->
+    <nav>
+      <div class="top-nav hidden-xs hidden-sm wow fadeIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">Our Story</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="portfolio.html">Work</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
       </div>
-    </div>
+    </nav>
+  <!--END MAIN MENU-->
 
-    <div id="nav-menu">
-          <ul class="navigation">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="portfolio.html">Work</a></li>
-                <li><a href="contact.html">Contact</a></li>
-              </ul> <!-- cd-single-item-wrapper -->
-
-          <div class="nav-social">
-            <ul>
-              <li><a href="#"><i class="ion-social-instagram-outline"></i></a></li>
-              <li><a href=""><i class="ion-social-dribbble-outline"></i></a></li>
-              <li><a href="#"><i class="ion-social-github"></i></a></li>
-            </ul>
+  <!--MOBILE MENU-->
+    <nav class="wrapper">
+        <div class="nav-trigger visible-xs visible-sm" role="button" title="sweet hamburger">
+          <div class="hamburger">
+            <div class="icon"></div>
           </div>
-          <p class="copyright-text">Copyright 2016 Primal Template</p>
-      </div>
-
-
-      <!-- Homepage Main Section-->
-      <div class="main">
-        <section class="split-home">
-          <section class="left-section personal wow fadeIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
-
-          </section>
-          <section class="right-section">
-            <div class="top-nav hidden-xs hidden-sm wow fadeInDown" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInDown;">
-              <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="portfolio.html">Work</a></li>
-                <li><a href="contact.html">Contact</a></li>
+        </div>
+      <div id="nav-menu">
+        <ul class="navigation">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">Our Story</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="portfolio.html">Work</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul> 
+        <div class="nav-social">
+          <ul>
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href=""><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-github"></i></a></li>
           </ul>
-            </div>
-            <div class="contact-section">
+        </div>
+        <p class="copyright-text">
+          Copyright NoBull Co.
+        </p>
+      </div>
+    </nav>
+<!--END MOBILE MENU -->
+
+<!-- HOMEPAGE MAIN SECTION-->
+    <div class="main">
+      <section class="split-home">
+          <!--LEFT SECTION -->
+          <section class="left-section personal wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
+              <div class"row">
+                <div class="col-md-12 col-sm-12 col-lg-12 col-xl-12 col-xs-12 text-center logo-describer">
+                  <div class="wow fadeInDownBig" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeIn;">
+                    <a  href="index.html" ><img src="assets/img/logo.png" width="200" height="200" alt="Logo">
+                    </a>                
+                    <h1> NoBull Co.</h1>
+                    <h2>Simple, fair, and upfront.</h2>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class ="col-sm-12 col-xs-12">
+                  <a href="#intro" data-scroll="true" data-id="#intro" class="scroll-arrow hidden-sm hidden-md hidden-lg hidden-xl">
+                    <i class="fa fa-angle-down"></i>
+                  </a>
+                </div>
+              </div>
+          </section>
+        <!--END LEFT SECTION-->
+
+         
+        ~
+        <!-- RIGHT SECTION-->
+        <section class="right-section" id="intro">
+          <div class="contact-section">
               <div class="col-md-12">
-                <h1 class="wow fadeInDown" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInDown;">Contact me.</h1>
+                <h3 class="wow fadeInDown" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInDown;">Get in touch.</h3>
                 <p class="wow fadeInDown" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInDown;">
-                  I know you've come here to talk to me Just ask me and I'll reply <br class="hidden-xs"> with in 24 hours unless it is weekend.
+                  Do our ideas on what a web agency <strong>should</strong> be sound like the sort of company you want to work with? Awesome, we're already looking forward to hearing from you! Just fill out our 
                 </p>
                 <div class="contact-form wow fadeInDown" data-wow-delay="0.7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInDown;">
                    <form id="contact-form" method="post" action="http://ydirection.com/Person/assets/php/contact.php" novalidate="true">
@@ -76,14 +114,14 @@
                         <div class="col-md-6">
                           <div class="form-group">
                             <label for="form_name">Firstname *</label>
-                            <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                            <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your first name" required="required" data-error="Firstname is required.">
                             <div class="help-block with-errors"></div>
                           </div>
                         </div>
                         <div class="col-md-6">
                           <div class="form-group">
                             <label for="form_lastname">Lastname *</label>
-                            <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                            <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your last name" required="required" data-error="Lastname is required.">
                             <div class="help-block with-errors"></div>
                           </div>
                         </div>
@@ -92,14 +130,14 @@
                         <div class="col-md-6">
                           <div class="form-group">
                             <label for="form_email">Email *</label>
-                            <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                            <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email" required="required" data-error="Valid email is required.">
                             <div class="help-block with-errors"></div>
                           </div>
                         </div>
                         <div class="col-md-6">
                           <div class="form-group">
                             <label for="form_phone">Phone</label>
-                            <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+                            <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone number">
                             <div class="help-block with-errors"></div>
                           </div>
                         </div>
@@ -108,7 +146,7 @@
                         <div class="col-md-12">
                           <div class="form-group">
                             <label for="form_message">Message *</label>
-                            <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                            <textarea id="form_message" name="message" class="form-control" placeholder="Let us know what's on your mind" rows="4" required="required" data-error="Please,leave us a message."></textarea>
                             <div class="help-block with-errors"></div>
                           </div>
                         </div>
@@ -121,24 +159,45 @@
                  </div>
                </div>
              </div>
-
-            <div class="footer-personal text-center wow fadeInDown" data-wow-delay="0.7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInDown;">
-           <span class="footer-credits">© Josh Edwinson 2016</span>
           </div>
-         </section>
-       </section>
-      </div><!-- Main-->
-    </div><!-- Wrapper -->
+          
+
+          <!--RIGHT SECTION FOOTER
+          <footer class="footer-personal text-center wow fadeInDown" data-wow-delay="0.7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInDown;">
+              <span class="footer-credits"><a href="http://www.richjdsmith.ca">@RichJDSmith 2016</a></span>
+              <div class="nav-social">
+                <ul>
+                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa fa-github"></i></a></li>
+                </ul>
+              </div>
+          </footer>
+          END RIGHT SECTION FOOTER-->
+        </section>
+        <!--END RIGHT SECTION-->
+
+
+     </section>
+    </div>
+    <!-- END HOMEPAGE MAIN SECTION -->
+   
 
     <!-- Jquery and Js Plugins -->
-    <script type="text/javascript" src="assets/js/jquery-2.1.1.js"></script>
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-2.1.1.min.js"><\/script>')</script>
+    <!--<script type="text/javascript" src="assets/js/jquery-2.1.1.js"></script>-->
     <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="assets/js/plugins.js"></script>
     <script type="text/javascript" src="assets/js/menu.js"></script>
-    <script type="text/javascript" src="assets/js/contact.js"></script>
-    <script type="text/javascript" src="assets/js/validator.js"></script>
-    <script type="text/javascript" src="asssets/js/custom.js"></script>
-  
+    <script type="text/javascript" src="assets/js/custom.js"></script>
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+        window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+        ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+
 
 </body>
 </html>

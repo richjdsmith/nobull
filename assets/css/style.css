@@ -224,6 +224,9 @@ p {
     line-height: 1.5;
 }
 
+strong {
+    font-weight: 600;
+}
 ::-moz-selection {
     color: #1106CC;
     background: #FFFF99;
