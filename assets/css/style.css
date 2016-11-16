@@ -915,58 +915,53 @@ a.scroll-arrow:hover {
 /* ----------------------------------------------------
 -------------- About Page Styling Starts --------------
 ------------------------------------------------------*/
-
 .about {
-    padding: 100px 0 0 0;
+    padding-top: 15%;
+    text-align: left;
+}
+
+.about-intro{
+    padding: 0 0 50px 0;
+}
+
+.about .about-intro h3 {
+    
 }
 
 .about .about-intro h4 {
-    font-family: Poppins;
-    font-size: 12px;
-    font-weight: 400;
-    color: #A1A1A1;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    margin: 0 0 10px 0;
+
+    text-align: center;
+
 }
 
-.about .about-intro h1 {
-    font-family: Poppins;
-    font-size: 18px;
-    font-weight: 400;
-    color: #222222;
-    line-height: 1.4;
+.about .about-intro p {
+    
 }
+
 
 .about img {
     margin: 30px 0 30px 0;
 }
-
 .about-details {
-    padding: 50px 0 0 0;
+    padding: 0 0 0 0;
     overflow: hidden;
 }
-
-
 /*
 .about-details p {
-	font-family: Poppins;
-	font-size: 16px;
-	font-weight: 400;
-	color: #222222;
-	line-height: 1.4;
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+color: #222222;
+line-height: 1.4;
 }*/
-
 .about-details .work-list {
     padding: 10px 0 0 0;
     overflow: hidden;
 }
-
 .about-details .work-list i {
     font-size: 42px;
     text-align: center;
 }
-
 .about-details .work-list p {
     font-family: Poppins;
     font-size: 14px;
@@ -974,20 +969,16 @@ a.scroll-arrow:hover {
     line-height: 1.4;
     margin: 20px 0 20px 0;
 }
-
 .about-details .col-sm-4 {
     background: #e6e6ff;
     padding: 20px 20px 20px 20px;
 }
-
 .about-details .col-sm-4:nth-child(2) {
     background: #ffcccc;
 }
-
 .about .experience {
     padding: 70px 0 0 0;
 }
-
 .about .experience h4 {
     font-family: Poppins;
     font-size: 12px;
@@ -997,7 +988,6 @@ a.scroll-arrow:hover {
     text-transform: uppercase;
     margin: 0 0 10px 0;
 }
-
 .about .experience h1 {
     font-family: Poppins;
     font-size: 16px;
@@ -1005,17 +995,14 @@ a.scroll-arrow:hover {
     color: #222222;
     line-height: 1.4;
 }
-
 .about .experience ul {
     padding: 50px 0 0 0;
 }
-
 .about .experience li {
     margin-bottom: 30px;
     background: rgba(230, 230, 255, 0.5);
     padding: 20px;
 }
-
 .about .experience h3 {
     font-family: Poppins;
     font-size: 16px;
@@ -1025,7 +1012,6 @@ a.scroll-arrow:hover {
     letter-spacing: 0px;
     line-height: 1.2;
 }
-
 .about .experience p {
     font-family: Poppins;
     font-size: 14px !important;
@@ -1034,7 +1020,6 @@ a.scroll-arrow:hover {
     margin: 20px 0 10px 0;
     line-height: 1.4;
 }
-
 .about .experience h6 {
     font-family: Poppins;
     font-size: 14px;
@@ -1044,11 +1029,9 @@ a.scroll-arrow:hover {
     margin: 20px 0 0 0;
     letter-spacing: 1px;
 }
-
 .about .cta {
     padding: 30px 0 30px 0;
 }
-
 .about .cta p {
     font-family: Poppins;
     font-size: 21px;
@@ -1056,14 +1039,11 @@ a.scroll-arrow:hover {
     color: #454545;
     text-align: left;
 }
-
 .about .btn-contact {
-    border: 2px solid #79A1BE;
+    border: 2px solid #001CFF;
     padding: 4px 12px;
     margin: 1em auto;
 }
-
-
 /* ----------------------------------------------------
 ----------- Portfolio Filter Styling Starts -----------
 -----------------------------------------------------*/
@@ -1610,7 +1590,7 @@ label {
         overflow: hidden;
     }
     .about {
-        padding: 150px 0 0 0;
+        padding: 15% 0 0 0;
     }
     .footer-social {
         position: absolute;
