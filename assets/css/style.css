@@ -342,6 +342,16 @@ strong {
 	font-weight: 600;
 	color: #fff;
 }
+.page-title{
+    text-align: center;
+    font-size: 2em;
+    color: #0D3147 !important;
+    text-transform: none;
+    border-bottom: 1px solid #79A1BE;
+
+
+    
+}
 
 a.scroll-arrow {
     font-size: 35px;
