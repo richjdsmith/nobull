@@ -1,4 +1,3 @@
-// Custom Scripts for Primal Template //
 
 jQuery(function($) {
     "use strict";

@@ -348,6 +348,7 @@ strong {
     color: #0D3147 !important;
     text-transform: none;
     border-bottom: 1px solid #79A1BE;
+    padding-bottom: 2px;
 
 
     
@@ -1090,12 +1091,11 @@ a.scroll-arrow:hover {
 -----------------------------------------------------*/
 
 .portfolio-intro {
-    padding: 150px 0 0 0;
+    padding: 15% 0 0 0;
     overflow: hidden;
 }
 
 .portfolio-intro h4 {
-    font-family: Poppins;
     font-size: 14px;
     font-weight: 400;
     color: #A1A1A1;
@@ -1105,7 +1105,6 @@ a.scroll-arrow:hover {
 }
 
 .portfolio-intro h1 {
-    font-family: Poppins;
     font-size: 20px;
     line-height: 1.4;
     font-weight: 400;
@@ -1128,7 +1127,6 @@ a.scroll-arrow:hover {
 
 .portfolio .categories ul li a {
     display: inline;
-    font-family: Poppins;
     font-weight: 400;
     font-size: 14px;
     line-height: 2.5;
@@ -1138,8 +1136,8 @@ a.scroll-arrow:hover {
 }
 
 .portfolio .categories ul li a.active {
-    text-decoration: line-through;
-    color: #000000;
+    text-decoration: underline;
+    color: #79A1BE;
 }
 
 .portfolio_filter {
