@@ -809,7 +809,11 @@ a.scroll-arrow:hover {
     background-size: cover;
 }
 
-
+.portfolio-playonwords {
+    background-color: #F1F1F1;
+    background: url(../img/img4.jpg) no-repeat center center;
+    background-size: cover;
+}
 
 .no-background {
     background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
