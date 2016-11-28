@@ -18,6 +18,7 @@ All Contents
 7. About Page Styling
 8. Portfolio Filter Page
 9. Portfolio Single
+9.5 Pricing Page
 10. Contact Page Styling
 11. All Media Queries
 ------------------*/
@@ -1883,6 +1884,26 @@ fieldset[disabled] .btn-dark-brd {
 
 /* ----- Footer Section Styling Ends ----- */
 
+/* --------Pricing Page Styling -----------*/
+
+.pricing-header {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.pricing-subheader {
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    color: #626363;
+    letter-spacing: 0px;
+    text-transform: none;
+    font-size: 1.2em;
+}
+.pricing-example {
+    font-size: .8em;
+    font-style: italic;
+}
 
 /*----------------------------------------------------
 ------------- All ------------------------------------
