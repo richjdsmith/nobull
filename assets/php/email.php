@@ -57,5 +57,6 @@ if(!$mail->Send())
    exit;
 }
 
-echo "contact-sent.html";
+$url = 'http://www.nobullco.com/contact-sent.html';
+header('Location: ' . $url);
 ?>
