@@ -1482,6 +1482,12 @@ a.scroll-arrow:hover {
     margin: auto;
 }
 
+.pricing-new-section {
+    font-size: 1.6em;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
 .addons-subheader {
     text-align: center;
     font-family: 'Cormorant Garamond', serif;
@@ -1569,7 +1575,15 @@ a.scroll-arrow:hover {
   display: block;
   font-size: 16px;
   font-weight: 300;
-  font-family: 
+  max-width: 80%; 
+}
+.pricing-list-subtitle {
+  display: block;
+  font-size: 16px;
+  font-weight: 300;
+  max-width: 80%; 
+  text-align: center;
+  margin:  0 auto;
 }
 
 .pricing-list .pricing-list-content {
@@ -1681,6 +1695,67 @@ a.scroll-arrow:hover {
     font-size: 1.5em;
     margin: 0 0 .3em 0;
 }
+
+#how-work{
+    margin-top: 60px;
+}
+
+#points {
+    padding: 0 40px;
+    margin: 150px auto 140px auto
+}
+
+#points.wrap .text-block:nth-child(even) {
+    padding-left: 8%
+}
+
+#points.wrap .text-block:nth-child(odd) {
+    padding-right: 8%
+}
+
+#points.full {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -moz-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    max-width: 1150px;
+    margin: 20px auto 90px auto
+}
+
+#points.full .text-block {
+    flex-basis: 33.33%;
+    width: 33.33%;
+    padding: 60px 45px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px
+}
+
+#points.full .text-block h4 {
+    font-size: 20px;
+    margin-bottom: 16px
+}
+
+#points.full .text-block:nth-child(odd),#points.full .text-block:nth-child(2),#points.full .text-block:nth-last-child(2) {
+    background-color: #f5f6f8;
+    background: #f5f6f8 url(../images/home/bg-texture.png) repeat top left;
+    -moz-background-size: 164px 72px;
+    -o-background-size: 164px 72px;
+    -webkit-background-size: 164px 72px;
+    background-size: 164px 72px
+}
+
+#points.full .text-block:nth-child(5) {
+    background-color: transparent
+}
+
+#points.top {
+    margin: 200px auto
+}
+
 /*--------------------------------------------------
     [Button]
 ----------------------------------------------------*/
@@ -2179,6 +2254,73 @@ fieldset[disabled] .btn-dark-brd {
         list-style-type: none;
         float: none !important;
     }
+}
+
+
+
+@media only screen and (max-width: 800px) {
+
+
+    #points.full .text-block {
+        flex-basis: 50%;
+        width: 50%;
+        padding: 30px 45px
+    }
+
+    #points.full .text-block:nth-child(2),#points.full .text-block:nth-last-child(2) {
+        background-color: transparent
+    }
+
+    #points.full .text-block:nth-child(odd) {
+        background-color: #f5f6f8
+    }
+
+    #points.full .text-block:nth-child(-n+2) {
+        padding-top: 60px
+    }
+
+    #points.full .text-block:nth-last-child(1) {
+        padding-bottom: 60px
+    }
+}
+
+
+@media only screen and (max-width: 700px) {
+    section .text-block:nth-child(even),section .text-block:nth-child(odd) {
+        padding:0
+    }
+
+    #points.wrap {
+        margin: 100px auto 30px auto
+    }
+
+    #points.wrap .text-block:nth-child(even),#points.wrap .text-block:nth-child(odd) {
+        padding-left: 0;
+        padding-right: 0
+    }
+
+    #points.wrap .text-block {
+        display: block;
+        width: auto;
+        margin-bottom: 80px
+    }
+
+   
+}
+
+@media only screen and (max-width: 600px) {
+    #points.full {
+        display:block;
+        padding-left: 0;
+        padding-right: 0
+    }
+
+    #points.full .text-block {
+        width: 100%;
+        padding: 30px 40px !important
+    }
+
+    
 }
 
 
